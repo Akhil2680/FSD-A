@@ -1,0 +1,31 @@
+.fitems {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: chartreuse;
+    border-width: 10px;
+    border-style: double;
+}
+
+.fcontainer {
+    display: flex;
+    /* background-color: blue;
+    border-style: 5px dotted;
+    border-radius: 5px;
+    border-style: double;
+    border-color: yellow; */
+    &:hover {
+        transform: scale(1.1);
+    }
+    transition: transform 0.5s;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#item1 {
+    order: -2;
+}
