@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#mydiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    width: 100vw;
+    background-color: #FFFFFF;
+    justify-content: center;
+    gap: 20px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.image {
+    height: 50px;
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#header .logo {
+    margin-left: 20px;
+}
+
+#header .menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#header .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
